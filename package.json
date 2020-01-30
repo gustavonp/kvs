@@ -1,0 +1,28 @@
+{
+  "name": "@gustavonp/kvs",
+  "version": "1.0.0",
+  "description": "CLI challenge",
+  "main": "src/index.js",
+  "bin": "bin/kvs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Test not available yet\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.4",
+    "jsonfile": "^5.0.0",
+    "local-storage": "^2.0.0",
+    "localStorage": "^1.0.4"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
+}
